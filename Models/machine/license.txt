@@ -1,0 +1,11 @@
+Model Information:
+* title:	Whack-a-Mole Machine
+* source:	https://sketchfab.com/3d-models/whack-a-mole-machine-8f5e6ecfad41457982a3194e7e756a1a
+* author:	hillierforshaw (https://sketchfab.com/hillierforshaw)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Whack-a-Mole Machine" (https://sketchfab.com/3d-models/whack-a-mole-machine-8f5e6ecfad41457982a3194e7e756a1a) by hillierforshaw (https://sketchfab.com/hillierforshaw) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

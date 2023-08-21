@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maturitní projekt - ThreeJS 3D hra</title>
+</head>
+
+<body>
+  
+  <div id="crosshair">
+    <img src="Icons/crosshair.svg" loading="lazy">
+  </div>
+
+  <div id="game-settings" class="active" style="display:none;">
+    <div>
+      <button id="resume-button">Hrát</button>
+      <button id="exit-button">Vypnout</button>
+    </div>
+    <div>
+      <h2>Ovládání</h2><br>
+      <div>Pohyb - WASD</div>
+      <div>Akce - Levé tlačítko myši</div>
+      <div>Otáčení - myš</div>
+    </div>
+    <div id="init-time-container">
+      <div>Herní čas (s)</div>
+      <input type="number" name="" id="init-time" style="height:30px;">
+    </div>
+  </div>
+  
+  <!-- <div id="stats">
+    <div id="camera-dir-stats" style="padding:10px;background-color:black;">
+      <h2>Directions</h2>
+      <span id="xcord-dir"></span>
+      <span id="ycord-dir"></span>
+      <span id="zcord-dir"></span>
+      <span id="direction"></span>
+    </div>
+    <div id="camera-pos-stats" style="padding:10px;background-color:black;">
+      <h2>Kamera pozice</h2>
+      <span id="xcord-pos"></span>
+      <span id="ycord-pos"></span>
+      <span id="zcord-pos"></span>
+    </div>
+  </div> -->
+
+  <div id="timer-nahore" style="position:absolute;left: 50%; top: 10%; transform: translate(-50%,-50%); z-index:99999999999;font-size:26px;text-align:center;line-height:30px;">
+    <div>Zbývá sekund : </div>
+    <div id="time-left"></div>
+  </div>
+
+  <div class="progress-bar-container">
+    <label for="progress-bar">Načítání...</label>
+    <progress id="progress-bar" value="0" max="100"></progress>
+  </div>
+  <div id="app"></div>
+  <script type="module" src="/main.js"></script>
+  <script type="module" src="/Setup/RendererSetup.js"></script>
+  <script>
+    (function(){var script=document.createElement('script');script.onload=function(){var stats=new Stats();document.body.appendChild(stats.dom);requestAnimationFrame(function loop(){stats.update();requestAnimationFrame(loop)});};script.src='//mrdoob.github.io/stats.js/build/stats.min.js';document.head.appendChild(script);})()
+  </script>
+</body>
+
+</html>

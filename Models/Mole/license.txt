@@ -1,0 +1,11 @@
+Model Information:
+* title:	Mole
+* source:	https://sketchfab.com/3d-models/mole-b0861eb76e824badbf599df0ca1a1044
+* author:	Marco Zakaria (https://sketchfab.com/marcoZakaria)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Mole" (https://sketchfab.com/3d-models/mole-b0861eb76e824badbf599df0ca1a1044) by Marco Zakaria (https://sketchfab.com/marcoZakaria) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
